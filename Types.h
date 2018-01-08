@@ -9,7 +9,6 @@ Description: Standard defined types
 
 #include <cstdint>
 
-typedef void Void;
 typedef bool Bit;
 constexpr Bit No = 0;
 constexpr Bit Yes = 1;
