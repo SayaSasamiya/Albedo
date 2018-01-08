@@ -27,7 +27,7 @@ typedef std::uint_fast64_t U64;
 typedef std::int_fast64_t S64; 
 
 template<class C>
-Void Cast(const T value)
+C Cast(const T value)
 {
-	static_cast<C>(value);
+	return static_cast<C>(value);
 }
