@@ -24,4 +24,10 @@ typedef std::int_fast16_t S16;
 typedef std::uint_fast32_t U32;
 typedef std::int_fast32_t S32;
 typedef std::uint_fast64_t U64;
-typedef std::int_fast64_t S64;
+typedef std::int_fast64_t S64; 
+
+template<class C>
+Void Cast(const T value)
+{
+	static_cast<C>(value);
+}
